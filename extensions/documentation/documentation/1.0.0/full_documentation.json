@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "06/27/2021 9:31:13 PM"
+    "x-generation-date": "08/12/2021 10:39:13 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -4651,7 +4651,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -4785,7 +4786,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -4843,7 +4845,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -4956,7 +4959,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5092,7 +5096,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5389,7 +5394,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5554,7 +5560,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5581,7 +5588,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5654,7 +5662,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5693,6 +5702,109 @@
                   },
                   "required": [
                     "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.hero",
+                        "sections.bottom-actions",
+                        "sections.feature-columns-group",
+                        "sections.feature-rows-group",
+                        "sections.testimonials-group",
+                        "sections.large-video",
+                        "sections.rich-text",
+                        "sections.pricing",
+                        "sections.lead-form",
+                        "sections.image-section"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "alt": {
+                      "type": "string"
+                    },
+                    "image": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "richText": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "alt",
+                    "image"
                   ]
                 }
               ]
@@ -5836,7 +5948,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -5970,7 +6083,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6028,7 +6142,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6141,7 +6256,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6277,7 +6393,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6574,7 +6691,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6739,7 +6857,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6766,7 +6885,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6839,7 +6959,8 @@
                         "sections.large-video",
                         "sections.rich-text",
                         "sections.pricing",
-                        "sections.lead-form"
+                        "sections.lead-form",
+                        "sections.image-section"
                       ]
                     },
                     "id": {
@@ -6878,6 +6999,109 @@
                   },
                   "required": [
                     "id"
+                  ]
+                },
+                {
+                  "properties": {
+                    "__component": {
+                      "type": "string",
+                      "enum": [
+                        "sections.hero",
+                        "sections.bottom-actions",
+                        "sections.feature-columns-group",
+                        "sections.feature-rows-group",
+                        "sections.testimonials-group",
+                        "sections.large-video",
+                        "sections.rich-text",
+                        "sections.pricing",
+                        "sections.lead-form",
+                        "sections.image-section"
+                      ]
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "alt": {
+                      "type": "string"
+                    },
+                    "image": {
+                      "required": [
+                        "id",
+                        "name",
+                        "hash",
+                        "mime",
+                        "size",
+                        "url",
+                        "provider"
+                      ],
+                      "properties": {
+                        "id": {
+                          "type": "string"
+                        },
+                        "name": {
+                          "type": "string"
+                        },
+                        "alternativeText": {
+                          "type": "string"
+                        },
+                        "caption": {
+                          "type": "string"
+                        },
+                        "width": {
+                          "type": "integer"
+                        },
+                        "height": {
+                          "type": "integer"
+                        },
+                        "formats": {
+                          "type": "object"
+                        },
+                        "hash": {
+                          "type": "string"
+                        },
+                        "ext": {
+                          "type": "string"
+                        },
+                        "mime": {
+                          "type": "string"
+                        },
+                        "size": {
+                          "type": "number"
+                        },
+                        "url": {
+                          "type": "string"
+                        },
+                        "previewUrl": {
+                          "type": "string"
+                        },
+                        "provider": {
+                          "type": "string"
+                        },
+                        "provider_metadata": {
+                          "type": "object"
+                        },
+                        "related": {
+                          "type": "string"
+                        },
+                        "created_by": {
+                          "type": "string"
+                        },
+                        "updated_by": {
+                          "type": "string"
+                        }
+                      }
+                    },
+                    "richText": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "alt",
+                    "image"
                   ]
                 }
               ]

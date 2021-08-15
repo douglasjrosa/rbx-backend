@@ -36,7 +36,8 @@
         "sections.large-video",
         "sections.rich-text",
         "sections.pricing",
-        "sections.lead-form"
+        "sections.lead-form",
+        "sections.image-section"
       ]
     },
     "status": {
