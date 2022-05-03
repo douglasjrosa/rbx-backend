@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_elements_whatsapp_contacts",
+  "info": {
+    "name": "whatsapp-contacts",
+    "icon": "phone-alt"
+  },
+  "options": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "fone": {
+      "type": "string"
+    }
+  }
+}

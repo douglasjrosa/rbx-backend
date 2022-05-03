@@ -262,7 +262,7 @@
     "/lead-form-submissions/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of lead-form-submissions documents",
+        "description": "Retrieve the number of lead-form-submissions documents",
         "responses": {
           "200": {
             "description": "Retrieve lead-form-submissions document(s)",

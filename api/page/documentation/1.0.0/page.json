@@ -1069,6 +1069,16 @@
                                 "type": "string"
                               }
                             }
+                          },
+                          "mediaWidth": {
+                            "type": "integer"
+                          },
+                          "mediaHeight": {
+                            "type": "integer"
+                          },
+                          "joinNextRow": {
+                            "type": "boolean",
+                            "default": false
                           }
                         }
                       }
@@ -2366,6 +2376,16 @@
                                 "type": "string"
                               }
                             }
+                          },
+                          "mediaWidth": {
+                            "type": "integer"
+                          },
+                          "mediaHeight": {
+                            "type": "integer"
+                          },
+                          "joinNextRow": {
+                            "type": "boolean",
+                            "default": false
                           }
                         }
                       }

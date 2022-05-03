@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "08/12/2021 10:39:13 PM"
+    "x-generation-date": "11/01/2021 8:50:01 PM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -614,7 +614,7 @@
     "/lead-form-submissions/count": {
       "get": {
         "deprecated": false,
-        "description": "Retrieve the numver of lead-form-submissions documents",
+        "description": "Retrieve the number of lead-form-submissions documents",
         "responses": {
           "200": {
             "description": "Retrieve lead-form-submissions document(s)",
@@ -4073,6 +4073,93 @@
                 "type": "string"
               }
             }
+          },
+          "whatsappImage": {
+            "required": [
+              "id",
+              "name",
+              "hash",
+              "mime",
+              "size",
+              "url",
+              "provider"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "alternativeText": {
+                "type": "string"
+              },
+              "caption": {
+                "type": "string"
+              },
+              "width": {
+                "type": "integer"
+              },
+              "height": {
+                "type": "integer"
+              },
+              "formats": {
+                "type": "object"
+              },
+              "hash": {
+                "type": "string"
+              },
+              "ext": {
+                "type": "string"
+              },
+              "mime": {
+                "type": "string"
+              },
+              "size": {
+                "type": "number"
+              },
+              "url": {
+                "type": "string"
+              },
+              "previewUrl": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "provider_metadata": {
+                "type": "object"
+              },
+              "related": {
+                "type": "string"
+              },
+              "created_by": {
+                "type": "string"
+              },
+              "updated_by": {
+                "type": "string"
+              }
+            }
+          },
+          "whatsappContacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "fone": {
+                  "type": "string"
+                }
+              }
+            }
           }
         }
       },
@@ -4460,6 +4547,26 @@
               },
               "smallText": {
                 "type": "string"
+              }
+            }
+          },
+          "whatsappContacts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "id"
+              ],
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "nome": {
+                  "type": "string"
+                },
+                "fone": {
+                  "type": "string"
+                }
               }
             }
           },
@@ -5074,6 +5181,16 @@
                                 "type": "string"
                               }
                             }
+                          },
+                          "mediaWidth": {
+                            "type": "integer"
+                          },
+                          "mediaHeight": {
+                            "type": "integer"
+                          },
+                          "joinNextRow": {
+                            "type": "boolean",
+                            "default": false
                           }
                         }
                       }
@@ -6371,6 +6488,16 @@
                                 "type": "string"
                               }
                             }
+                          },
+                          "mediaWidth": {
+                            "type": "integer"
+                          },
+                          "mediaHeight": {
+                            "type": "integer"
+                          },
+                          "joinNextRow": {
+                            "type": "boolean",
+                            "default": false
                           }
                         }
                       }
