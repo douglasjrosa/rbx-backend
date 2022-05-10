@@ -50,7 +50,9 @@
           }
         },
         "summary": "",
-        "tags": ["Global"],
+        "tags": [
+          "Global"
+        ],
         "parameters": [
           {
             "name": "_limit",
@@ -236,7 +238,9 @@
           }
         },
         "summary": "",
-        "tags": ["Global"],
+        "tags": [
+          "Global"
+        ],
         "requestBody": {
           "description": "",
           "required": true,
@@ -297,7 +301,9 @@
           }
         },
         "summary": "",
-        "tags": ["Global"],
+        "tags": [
+          "Global"
+        ],
         "parameters": []
       }
     }
@@ -305,14 +311,21 @@
   "components": {
     "schemas": {
       "Global": {
-        "required": ["id", "metaTitleSuffix"],
+        "required": [
+          "id",
+          "metaTitleSuffix"
+        ],
         "properties": {
           "id": {
             "type": "string"
           },
           "metadata": {
             "type": "object",
-            "required": ["id", "metaTitle", "metaDescription"],
+            "required": [
+              "id",
+              "metaTitle",
+              "metaDescription"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -393,7 +406,12 @@
               "twitterCardType": {
                 "type": "string",
                 "default": "summary",
-                "enum": ["summary", "summary_large_image", "app", "player"]
+                "enum": [
+                  "summary",
+                  "summary_large_image",
+                  "app",
+                  "player"
+                ]
               },
               "twitterUsername": {
                 "type": "string"
@@ -472,7 +490,10 @@
           },
           "notificationBanner": {
             "type": "object",
-            "required": ["id", "type"],
+            "required": [
+              "id",
+              "type"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -482,13 +503,20 @@
               },
               "type": {
                 "type": "string",
-                "enum": ["alert", "info", "warning"]
+                "enum": [
+                  "alert",
+                  "info",
+                  "warning"
+                ]
               }
             }
           },
           "navbar": {
             "type": "object",
-            "required": ["id", "logo"],
+            "required": [
+              "id",
+              "logo"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -564,7 +592,11 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id", "url", "text"],
+                  "required": [
+                    "id",
+                    "url",
+                    "text"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -584,7 +616,9 @@
               },
               "button": {
                 "type": "object",
-                "required": ["id"],
+                "required": [
+                  "id"
+                ],
                 "properties": {
                   "id": {
                     "type": "string"
@@ -601,7 +635,10 @@
                   },
                   "type": {
                     "type": "string",
-                    "enum": ["primary", "secondary"]
+                    "enum": [
+                      "primary",
+                      "secondary"
+                    ]
                   }
                 }
               }
@@ -609,7 +646,9 @@
           },
           "footer": {
             "type": "object",
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -685,7 +724,9 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id"],
+                  "required": [
+                    "id"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -697,7 +738,11 @@
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "required": ["id", "url", "text"],
+                        "required": [
+                          "id",
+                          "url",
+                          "text"
+                        ],
                         "properties": {
                           "id": {
                             "type": "string"
@@ -794,7 +839,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -807,15 +854,24 @@
                 }
               }
             }
+          },
+          "whatsappMsg": {
+            "type": "string"
           }
         }
       },
       "NewGlobal": {
-        "required": ["metaTitleSuffix"],
+        "required": [
+          "metaTitleSuffix"
+        ],
         "properties": {
           "metadata": {
             "type": "object",
-            "required": ["id", "metaTitle", "metaDescription"],
+            "required": [
+              "id",
+              "metaTitle",
+              "metaDescription"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -896,7 +952,12 @@
               "twitterCardType": {
                 "type": "string",
                 "default": "summary",
-                "enum": ["summary", "summary_large_image", "app", "player"]
+                "enum": [
+                  "summary",
+                  "summary_large_image",
+                  "app",
+                  "player"
+                ]
               },
               "twitterUsername": {
                 "type": "string"
@@ -908,7 +969,10 @@
           },
           "notificationBanner": {
             "type": "object",
-            "required": ["id", "type"],
+            "required": [
+              "id",
+              "type"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -918,13 +982,20 @@
               },
               "type": {
                 "type": "string",
-                "enum": ["alert", "info", "warning"]
+                "enum": [
+                  "alert",
+                  "info",
+                  "warning"
+                ]
               }
             }
           },
           "navbar": {
             "type": "object",
-            "required": ["id", "logo"],
+            "required": [
+              "id",
+              "logo"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -1000,7 +1071,11 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id", "url", "text"],
+                  "required": [
+                    "id",
+                    "url",
+                    "text"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -1020,7 +1095,9 @@
               },
               "button": {
                 "type": "object",
-                "required": ["id"],
+                "required": [
+                  "id"
+                ],
                 "properties": {
                   "id": {
                     "type": "string"
@@ -1037,7 +1114,10 @@
                   },
                   "type": {
                     "type": "string",
-                    "enum": ["primary", "secondary"]
+                    "enum": [
+                      "primary",
+                      "secondary"
+                    ]
                   }
                 }
               }
@@ -1045,7 +1125,9 @@
           },
           "footer": {
             "type": "object",
-            "required": ["id"],
+            "required": [
+              "id"
+            ],
             "properties": {
               "id": {
                 "type": "string"
@@ -1121,7 +1203,9 @@
                 "type": "array",
                 "items": {
                   "type": "object",
-                  "required": ["id"],
+                  "required": [
+                    "id"
+                  ],
                   "properties": {
                     "id": {
                       "type": "string"
@@ -1133,7 +1217,11 @@
                       "type": "array",
                       "items": {
                         "type": "object",
-                        "required": ["id", "url", "text"],
+                        "required": [
+                          "id",
+                          "url",
+                          "text"
+                        ],
                         "properties": {
                           "id": {
                             "type": "string"
@@ -1163,7 +1251,9 @@
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["id"],
+              "required": [
+                "id"
+              ],
               "properties": {
                 "id": {
                   "type": "string"
@@ -1176,6 +1266,9 @@
                 }
               }
             }
+          },
+          "whatsappMsg": {
+            "type": "string"
           },
           "created_by": {
             "type": "string"
